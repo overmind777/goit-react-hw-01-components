@@ -14,7 +14,7 @@ export const Statistics = props => {
       <ListWrapper>
         {stats.map(el => {
           return (
-            <ItemWrapper className="item" key={el.id}>
+            <ItemWrapper className="item" key={el.id} id={el.id}>
               <span className="label">{el.label}</span>
               <span className="percentage">{el.percentage} %</span>
             </ItemWrapper>
