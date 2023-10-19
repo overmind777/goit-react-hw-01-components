@@ -5,11 +5,7 @@ export const Statistics = props => {
 
   return (
     <Wrapper>
-      {title ? (
-        <h2 className="title">{title}</h2>
-      ) : (
-        <h2 className="ishidden"></h2>
-      )}
+      {title && <h2>{title}</h2>}
 
       <ListWrapper>
         {stats.map(el => {
