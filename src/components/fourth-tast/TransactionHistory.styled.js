@@ -17,7 +17,7 @@ export const Thead = styled.thead`
 
 export const Tbody = styled.tbody`
   text-align: center;
-  tr:nth-child(2n) {
+  tr:nth-child(even) {
     background-color: red;
   }
   td {
