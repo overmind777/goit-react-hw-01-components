@@ -3,12 +3,8 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   display: block;
   text-align: center;
-
+  margin-top: 20px;
   background-color: white;
-
-  .ishidden {
-    display: none;
-  }
 `;
 
 export const ListWrapper = styled.ul`
