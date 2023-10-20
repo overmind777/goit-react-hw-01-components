@@ -10,7 +10,7 @@ export const Statistics = props => {
 
   return (
     <Wrapper>
-      {title ? <h2>{title}</h2> : <div></div>}
+      {title ? <h2>{title}</h2> : null}
 
       <ListWrapper>
         {stats.map(el => {
